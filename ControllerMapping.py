@@ -9,7 +9,7 @@ import vgamepad as vg
 
 #   If you want to remmap a button to another button, 
 #   please use the available self.remap_button() function.
-#   https://copycat.stickassist.com/documentation#buttons-4 
+#   https://AV3 Ai.stickassist.com/documentation#buttons-4 
 
 #   Modifying this file will may break other scripts.
 

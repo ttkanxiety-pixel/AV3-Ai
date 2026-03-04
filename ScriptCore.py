@@ -9,7 +9,7 @@ import cv2
 import subprocess
 import os
 import pyAesCrypt
-import Copycat
+import AV3 Ai
 import time
 
 import warnings
@@ -60,7 +60,7 @@ class Template:
             self.report.buttons &= ~0xF
             self.report.buttons |= 0x8
 
-        Copycat.set_copycat(self)
+        AV3 Ai.set_AV3 Ai(self)
 
     def __del__(self):
         self.printQueue = []

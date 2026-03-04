@@ -265,7 +265,7 @@ class Gui:
         self.root.tk.call("source", currentDirectory + "/res/azure.tcl")
         self.root.tk.call("set_theme", "light")
 
-        self.root.title("Copycat v" + str(self.version))
+        self.root.title("AV3 Ai v" + str(self.version))
         self.root.iconbitmap(currentDirectory + "/res/icons/app.ico")
         self.root.geometry("510x710")
 
@@ -276,7 +276,7 @@ class Gui:
         self.root.attributes("-fullscreen", False)
         self.root.protocol("WM_DELETE_WINDOW", self.close_app)
 
-        app_data_path = os.path.join(os.getenv('APPDATA'), 'Copycat')
+        app_data_path = os.path.join(os.getenv('APPDATA'), 'AV3 Ai')
 
         if (os.path.exists(app_data_path) == False):
             os.mkdir(app_data_path)
@@ -1338,7 +1338,7 @@ class Gui:
         self.status_bar_left_label.config(text=f"Mouse Position: {event.x}, {event.y}")
 
     def updateSelf(self):
-        messagebox.showinfo("Update", "CopyCat will now close to update. Re-launch CopyCat once the update is complete.")
+        messagebox.showinfo("Update", "AV3 Ai will now close to update. Re-launch AV3 Ai once the update is complete.")
 
         try:
             os.startfile('update.bat')
@@ -1559,7 +1559,7 @@ class Gui:
         self.output_log.tag_configure("blue", foreground="blue", font=(fontFamily, fontSize))
         self.output_log.tag_configure("green", foreground="green", font=(fontFamily, fontSize))
 
-        self.add_log("Welcome to Copycat v" + str(self.version), "green")
+        self.add_log("Welcome to AV3 Ai v" + str(self.version), "green")
 
     def run(self):
         self.root.mainloop()
