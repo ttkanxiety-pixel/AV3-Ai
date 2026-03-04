@@ -125,3 +125,4 @@ class CaptureCard:
                 time.sleep(round(1 / fps_limit - elapsed_time, 2))
 
         return False
+

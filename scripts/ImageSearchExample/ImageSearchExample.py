@@ -17,3 +17,4 @@ class Script(Template):
             cv2.rectangle(frame, result[0], result[1], (0,0,255), 5)
 
         return frame
+

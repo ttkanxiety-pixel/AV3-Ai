@@ -8,3 +8,4 @@ class Script(Template):
     def run(self, frame):
         return frame
 
+

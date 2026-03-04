@@ -86,3 +86,4 @@ mappingDS4 = {
         16: vg.DS4_SPECIAL_BUTTONS.DS4_SPECIAL_BUTTON_TOUCHPAD
     },
 }
+

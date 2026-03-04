@@ -89,3 +89,4 @@ class Macro():
             self.state = MACRO_STATE_STOPPED
 
         return
+

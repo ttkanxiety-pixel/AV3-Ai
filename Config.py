@@ -50,3 +50,4 @@ class Config:
     def write_config(self):
         with open(self.config_file_path, 'w') as file:
             self.config.write(file)
+

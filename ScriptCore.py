@@ -530,3 +530,4 @@ class Template:
         bottom_right = (top_left[0] + width, top_left[1] + height)
 
         return [top_left, bottom_right]
+
